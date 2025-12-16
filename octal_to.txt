@@ -1,0 +1,5 @@
+# convert octal to decimal, binary and hexadecimal
+num = int(input("Enter an octal number: "))
+print("Decimal: ", int(num, 8))
+print("Binary: ", bin(num))
+print("Hexadecimal: ", hex(num))
